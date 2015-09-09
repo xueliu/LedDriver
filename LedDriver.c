@@ -21,6 +21,12 @@ static void RunAllTests(void) {
     RUN_TEST_GROUP(LedDriver);
 }
 
+// For invert logic
+//static void updateHardware(void) {
+//    *ledsAddress = ~ledsImage;
+//}
+
+// For normal logic
 static void updateHardware(void) {
     *ledsAddress = ledsImage;
 }
