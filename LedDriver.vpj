@@ -108,6 +108,7 @@
         <Includes>
             <Include Dir="F:/workspace/LedDriver/src/"/>
             <Include Dir="F:/workspace/LedDriver/extras/fixture/src/"/>
+            <Include Dir="F:/workspace/LedDriver/util/"/>
         </Includes>
         <Libs PreObjects="0"/>
     </Config>
@@ -214,6 +215,7 @@
         <Includes>
             <Include Dir="F:/workspace/LedDriver/src/"/>
             <Include Dir="F:/workspace/LedDriver/extras/fixture/src/"/>
+            <Include Dir="F:/workspace/LedDriver/util/"/>
         </Includes>
         <Libs PreObjects="0"/>
     </Config>
@@ -249,6 +251,11 @@
             <F N="src/unity.c"/>
             <F N="src/unity.h"/>
             <F N="src/unity_internals.h"/>
+        </Folder>
+        <Folder Name="util">
+            <F N="util/RuntimeError.h"/>
+            <F N="util/RuntimeErrorStub.c"/>
+            <F N="util/RuntimeErrorStub.h"/>
         </Folder>
         <F N="LedDriver.c"/>
         <F N="LedDriver.h"/>
