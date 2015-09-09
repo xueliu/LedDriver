@@ -259,6 +259,9 @@
         </Folder>
         <F N="LedDriver.c"/>
         <F N="LedDriver.h"/>
+        <F
+            N="LedDriver.mak"
+            Type="Makefile"/>
         <F N="LedDriverTest.c"/>
         <F N="LedDriverTestRunner.c"/>
     </Files>
